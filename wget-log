@@ -1,0 +1,11 @@
+--2018-10-02 20:06:15--  https://api.login.yahoo.com/oauth2/request_auth?redirect_uri=oob
+Resolving api.login.yahoo.com (api.login.yahoo.com)... 67.195.204.151
+Connecting to api.login.yahoo.com (api.login.yahoo.com)|67.195.204.151|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7155 (7.0K) [text/html]
+Saving to: ‘request_auth?redirect_uri=oob’
+
+          request_a   0%[                    ]       0  --.-KB/s               request_auth?redire 100%[===================>]   6.99K  --.-KB/s    in 0s      
+
+2018-10-02 20:06:15 (33.6 MB/s) - ‘request_auth?redirect_uri=oob’ saved [7155/7155]
+
