@@ -8,7 +8,6 @@ import time
 
 from rauth import OAuth2Service
 
-
 class ClientKey(object):
     def __init__(self, client_id, client_secret):
         self.client_id = client_id
@@ -23,7 +22,6 @@ class ClientKey(object):
             raise RuntimeError("Incorrect number of keys found")
 
         return cls(*keys)
-
 
 class Token(object):
     def __init__(self, access_token=None, refresh_token=None):
