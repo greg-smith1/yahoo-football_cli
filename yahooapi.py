@@ -1,12 +1,14 @@
+
+import os
+import time
+
+from rauth import OAuth2Service
+
 """
 Python Yahoo API courtesy of @dkempiners on github, acquired from
 https://github.com/dkempiners/python-yahooapi/blob/master/yahooapi.py
 and used under the MIT License (provided in this repo)
 """
-import os
-import time
-
-from rauth import OAuth2Service
 
 class ClientKey(object):
     def __init__(self, client_id, client_secret):

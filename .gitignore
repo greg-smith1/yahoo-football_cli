@@ -1,3 +1,4 @@
 fantasyenv/*
 *.json
 __pycache__/*
+*.db
